@@ -1,0 +1,80 @@
+#movie_info
+{
+     height: 600px;
+     width: 600px;
+     background: #151515;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     margin-top: -300px;
+     margin-left: -300px;
+     display: flex;
+     z-index: 2;
+     font-size: xx-large;
+}
+
+.movie-info
+{
+ vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+}
+
+#background_info
+{
+     background:rgba(0,0,0,0.6);
+     height: 100%;
+     width: 100%;
+     position: fixed;
+     display: flex;
+     z-index: 1;
+}
+
+.more-info-close
+{
+  padding: 10px;
+  background-color: #4dbf00;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 1s all ease-in-out;
+}
+
+.more-info-photo
+{
+     width: 500px;
+     height: 300px;
+     display: block;
+     padding-top: 25px;
+     margin-left: auto;
+     margin-right: auto;
+     object-fit: cover;
+}
+
+.more-info-desc
+{
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.more-info-title
+{
+  padding-top: 15px;
+  font-size: 30px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
